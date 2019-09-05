@@ -1,0 +1,39 @@
+{
+  "name": "don8r",
+  "description": "IBM Hackathon",
+  "version": "0.1.1",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "lint": "eslint .",
+    "autofix": "eslint --fix .",
+    "codecov": "npm run test && (codecov || true)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.ibm.com/Alexander-Melo/DON8R"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "twilio": "^3.17.6",
+    "watson-developer-cloud": "^3.5.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.0.4",
+    "casperjs": "^1.1.4",
+    "codecov": "^3.0.2",
+    "eslint": "^2.8.0",
+    "jest": "^22.4.3",
+    "phantomjs-prebuilt": "^2.1.15",
+    "supertest": "^3.1.0"
+  },
+  "engines": {
+    "node": ">= 6.9.x",
+    "npm": "> 3.10.x"
+  },
+  "keywords": [],
+  "author": ""
+}

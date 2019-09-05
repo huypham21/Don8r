@@ -1,0 +1,70 @@
+<html>
+<head>
+  <base href="/">
+  <title>don8r New Donor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+    crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Pacifico" rel="stylesheet">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div id="contentParent" class="responsive-columns-wrapper">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 branding-container">
+          <div id="branding-column-holder">
+            <div class="branding-column">
+              <div id="brandingLogo">
+                  <div>
+                    <img src="img/doctor.png" alt="Logo" id="logo">
+                  </div>
+                  <span>don8r</span>  
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-9">
+          <div id="donor-form-holder" class="responsive-column content-column">
+            <div class="donor-form-column">
+              <div id="donorForm">
+                <form>
+                    <p id="newDonorFormHeader">Register a New Donor</p>
+                    <label for="textInput" class="inputOutline" id="donorFormInput">
+                        <input id="textInput" class="input responsive-column" placeholder="First Name" type="text" onkeydown="ConversationPanel.inputKeyDown(event, this)">
+                    </label>
+                    <label for="textInput" class="inputOutline" id="donorFormInput">
+                        <input id="textInput" class="input responsive-column" placeholder="Last Name" type="text" onkeydown="ConversationPanel.inputKeyDown(event, this)">
+                    </label>
+                    <label for="textInput" class="inputOutline" id="donorFormInput">
+                        <input id="textInput" class="input responsive-column" placeholder="Blood Type" type="text" onkeydown="ConversationPanel.inputKeyDown(event, this)">
+                    </label>
+                    <label for="textInput" class="inputOutline" id="donorFormInput">
+                        <input id="textInput" class="input responsive-column" placeholder="Address" type="text" onkeydown="ConversationPanel.inputKeyDown(event, this)">
+                    </label>
+                    <input id="donorFormSubmit" type="submit" value="Submit">
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+    crossorigin="anonymous"></script>
+  <script src="js/common.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/conversation.js"></script>
+  <!-- <script src="js/payload.js"></script> -->
+  <script src="js/global.js"></script>
+  <!-- <script src="js/analytics.js"></script> -->
+</body>
+</html>
